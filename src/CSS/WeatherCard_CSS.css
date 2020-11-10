@@ -1,0 +1,42 @@
+.WeatherCard {
+	/*background-color:white;*/
+	min-width:85%;
+	border-radius: 2rem;
+	max-width: 65%;
+	height: auto;
+	margin-top:0.7rem;
+	margin-bottom:0.7rem;
+	/*max-height:40vh;*/
+	background-color: white;
+	border:2px solid #d3d3d3;
+}
+
+.row-card {
+	display: flex;
+	flex-direction: row;
+	/*max-height: 6rem;*/
+	/*padding:1rem;*/
+	justify-content: center;
+	align-items: center;
+	/*border:1px solid red;*/
+}
+.card-column {
+	display: flex;
+	flex-direction: column;
+	width: 70%;
+	justify-content: center;
+	align-content: center;
+}
+.card-column2 {
+	display: flex;
+	width: 40%;
+	flex-direction: column;
+	justify-content: center;
+	align-content: center;
+	background-color: #bc6ff1;
+	border-radius: 1.8rem;
+}
+
+h3 {
+	color:white;
+}

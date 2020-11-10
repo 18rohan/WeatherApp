@@ -1,0 +1,122 @@
+.MainCard {
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	/* border:1px solid red; */
+	border-radius:1rem;
+	/* background-color:rgba(0,0,0,0.2); */
+	/* background-image : url('cloudyWeather.png'); */
+	padding:2.5em;
+	/*grid-template-columns:repeat(1fr,2);*/
+	/*border:1px solid red;*/
+	/*overflow: hidden;*/
+}
+.image-container-card{
+	width:100%;
+	max-width:100%;
+	min-width: 30%;
+	/* height:50vh; */
+	
+	border-radius: 2rem;
+	/* padding:2rem; */
+	/* border:1px solid; */
+	display:flex;
+	/* justify-content:center; */
+	align-items:center;
+	justify-content:center;
+	background-color: rgba(255,255,255,0.5);
+	box-shadow:10px 10px 30px black;
+	
+}
+.weather-info {
+	display: flex;
+	width: 100%;
+	flex-direction:column;
+	justify-content: center;
+	align-items: center;
+	border-radius: 2rem;
+	padding:2rem;
+	/*border:1px solid white;*/
+	/* background-color:rgba(53, 7, 220, 0.5); */
+	background-image:linear-gradient(to bottom, blue);
+	
+	box-shadow:10px 10px 30px black;
+	/*box-shadow:10px 10px 0px blue;*/
+	margin-left:3em;
+
+}
+.city {
+	color:red;
+	font-family: 'Roboto', sans-serif;
+	font-size:1em;
+	/*text-shadow:5px 5px rgba(50,50,70,0.5);*/
+}
+.temperature {
+	
+	padding:1em;
+	background-color:rgba(0,0,0,0.2);
+	border-radius: 2rem;
+	color:#22007C;
+	font-size:30px;
+	font-family:sans-serif;
+	/*text-shadow:3px 3px rgba(50,50,70,0.5);*/
+}
+
+.info {
+	font-size:2rem;
+	color:#241E4E;
+	/* color: #011638; */
+	font-family:Helvetica;
+}
+.temperature-info {
+	font-size:4rem;
+	font-weight: 800;
+	padding:1em;
+}
+.info-small {
+	font-size:1.5rem;
+	color:#241E4E;
+	font-family:Apple Symbols;
+}
+.image {
+	max-width:60%;
+	height:auto;
+	border-radius: 2rem;
+	box-shadow:10px 10px 30px black;
+
+	/*max-height: 100%;*/
+}
+.IconCard {
+	display: flex;
+	flex-direction: column;
+	background-image:linear-gradient(to top,#0278ae);
+	justify-content: center;;
+	
+	
+	background-image:linear-gradient(to background,blue, lightblue, white);
+	border-radius:3em;
+}
+.image-conditions {
+	width:100%;
+	
+}
+
+@media all and (max-width:600px) {
+	.MainCard {
+		justify-content: center;
+		width:100%;
+		margin-right:10%;
+		min-width: 60%;
+		
+		
+	}
+	.temperature {
+		width:60%;
+		justify-content: center;
+		align-items: center;
+		
+	}
+	.temperature-info {
+		padding:0em;
+	}
+}
