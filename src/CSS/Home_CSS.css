@@ -2,7 +2,7 @@
 	display: flex;
 	min-width: 100%;
 	min-height:100vh;
-	background-image: linear-gradient(to bottom,#f9f9f9,lightblue,#011638);
+	background-image: linear-gradient( bottom,#f9f9f9,lightblue,#011638);
 	/* z-index:-2; */
 	/* overflow: hidden; */
 	

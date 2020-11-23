@@ -1,6 +1,6 @@
 import React,{useState} from 'react';
 import './App.css';
-import WeatherCard from './Components/weatherCard';
+// import WeatherCard from './Components/weatherCard';
 import MainCard from './Components/MainCard';
 
 // importing Pages

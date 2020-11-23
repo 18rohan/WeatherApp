@@ -25,7 +25,7 @@ const MainCard = (props) => {
 		<div className="row">
 		
 			<div className="col home-col2">
-			<h1 className="forecast">TODAY'S FORECAST</h1>
+			<h1 className="forecast">TODAYS FORECAST</h1>
 		<div className="MainCard">
 		
 			<div className="weather-info">

@@ -2,26 +2,16 @@
 	display:flex;
 	justify-content:center;
 	align-items:center;
-	/* border:1px solid red; */
 	border-radius:1rem;
-	/* background-color:rgba(0,0,0,0.2); */
-	/* background-image : url('cloudyWeather.png'); */
 	padding:2.5em;
-	/*grid-template-columns:repeat(1fr,2);*/
-	/*border:1px solid red;*/
-	/*overflow: hidden;*/
+	
 }
 .image-container-card{
 	width:100%;
 	max-width:100%;
 	min-width: 30%;
-	/* height:50vh; */
-	
 	border-radius: 2rem;
-	/* padding:2rem; */
-	/* border:1px solid; */
 	display:flex;
-	/* justify-content:center; */
 	align-items:center;
 	justify-content:center;
 	background-color: rgba(255,255,255,0.5);
@@ -38,7 +28,7 @@
 	padding:2rem;
 	/*border:1px solid white;*/
 	/* background-color:rgba(53, 7, 220, 0.5); */
-	background-image:linear-gradient(to bottom, blue);
+	background-image:linear-gradient(bottom, blue);
 	
 	box-shadow:10px 10px 30px black;
 	/*box-shadow:10px 10px 0px blue;*/
@@ -89,11 +79,11 @@
 .IconCard {
 	display: flex;
 	flex-direction: column;
-	background-image:linear-gradient(to top,#0278ae);
+	background-image:linear-gradient( top,#0278ae);
 	justify-content: center;;
 	
 	
-	background-image:linear-gradient(to background,blue, lightblue, white);
+	background-image:linear-gradient(bottom,blue, lightblue, white);
 	border-radius:3em;
 }
 .image-conditions {
@@ -116,7 +106,5 @@
 		align-items: center;
 		
 	}
-	.temperature-info {
-		padding:0em;
-	}
+	
 }
